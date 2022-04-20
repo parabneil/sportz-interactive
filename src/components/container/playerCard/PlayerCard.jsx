@@ -6,7 +6,10 @@ const PlayerCard = ({ player }) => {
     <div className="player-card" onClick={() => console.log(player)}>
       <div className="player-name">{player.PFName}</div>
       <div className="player-avatar">
-        <img src={`/player-images/${player.Id}.jpg`} alt={player.PFName} />
+        <img
+          src={require(`../../../../public/player-images/${player.Id}.jpg`)}
+          alt={player.PFName}
+        />
       </div>
       <div className="player-card-mid">
         <div className="player-skill">{player.SkillDesc}</div>
