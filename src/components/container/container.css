@@ -1,0 +1,56 @@
+.container {
+  background-color: royalblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+}
+
+.title {
+  font-weight: 900;
+  font-size: xx-large;
+  color: white;
+}
+
+.title span {
+  color: greenyellow;
+}
+
+.search-bar {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 20vw;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.search-bar input:focus-within {
+  border: 0.5px solid greenyellow;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: greenyellow;
+  color: black;
+  padding: 0 20px;
+  height: 27px;
+  border: none;
+  border-radius: 5px;
+}
+
+.player-container {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
