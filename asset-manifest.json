@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sportz-interactive/static/css/main.58b7c658.css",
+    "main.js": "/sportz-interactive/static/js/main.bd41af69.js",
+    "static/js/787.57bc5b66.chunk.js": "/sportz-interactive/static/js/787.57bc5b66.chunk.js",
+    "index.html": "/sportz-interactive/index.html",
+    "main.58b7c658.css.map": "/sportz-interactive/static/css/main.58b7c658.css.map",
+    "main.bd41af69.js.map": "/sportz-interactive/static/js/main.bd41af69.js.map",
+    "787.57bc5b66.chunk.js.map": "/sportz-interactive/static/js/787.57bc5b66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58b7c658.css",
+    "static/js/main.bd41af69.js"
+  ]
+}
