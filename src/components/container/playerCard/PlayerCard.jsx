@@ -26,7 +26,13 @@ const PlayerCard = ({ player }) => {
               <div>{player.UpComingMatchesList[0].VsCCode}</div>
             </div>
             <div className="upcomingMatch-DateTime">
-              {new Date(player.UpComingMatchesList[0].MDate).toLocaleString()}
+              {new Date(
+                new Date(player.UpComingMatchesList[0].MDate).getTime() -
+                  new Date(
+                    player.UpComingMatchesList[0].MDate
+                  ).getTimezoneOffset() *
+                    60000
+              ).toLocaleString()}
             </div>
           </>
         ) : (

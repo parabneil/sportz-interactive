@@ -83,5 +83,6 @@
   align-items: center;
   padding: 3px 0;
   color: darkblue;
+  font-size: smaller;
   font-weight: 500;
 }
